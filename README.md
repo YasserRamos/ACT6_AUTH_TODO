@@ -1,27 +1,59 @@
-# 🚀 Proyecto Base: Autenticación en React Native con Expo
+# 🌟 Evidencia de Actividad: Autenticación y CRUD de Tareas en React Native
 
-Este repositorio contiene el código base para implementar autenticación en una aplicación React Native utilizando Expo. Se recomienda utilizar la documentación oficial de Expo para comprender y verificar el correcto funcionamiento del código.
+## 📅 Actividad Realizada
+Implementé una aplicación móvil en **React Native con Expo**, cumpliendo con los objetivos de autenticación y un CRUD de tareas utilizando **expo-sqlite**.
 
-## 🎯 Objetivo
-El objetivo de este proyecto es proporcionar una base funcional sobre la cual se pueda trabajar para integrar y probar la autenticación en una aplicación React Native.
+---
 
-## 📖 Verificación y Documentación
-Se recomienda apoyarse en la documentación oficial de Expo para revisar los siguientes aspectos:
-- 🔐 Implementación de `expo-secure-store` para almacenamiento seguro de credenciales.
-- 🔄 Manejo de sesiones y persistencia de usuario.
+## 👤 Parte 1: Autenticación con Credenciales Hardcoded
 
-📚 Documentación relevante:
-- [📌 Expo SecureStore](https://docs.expo.dev/versions/latest/sdk/securestore/)
-- [📌 Expo Authentication](https://docs.expo.dev/guides/authentication/)
-- [📌 React Navigation](https://reactnavigation.org/docs/getting-started/)
+### Objetivo:
+Permitir el inicio de sesión de un usuario validando manualmente sus credenciales.
 
-## ✨ Personalización y Mejoras
-Para completar el proceso de inicio de sesión, es necesario modificar la implementación añadiendo inputs para ingresar correo y contraseña. 
-La validación de credenciales debe realizarse mediante código duro, sin utilizar una API externa. Esto se hace por cuestiones prácticas, con la intención de integrar un servicio de autenticación más adelante.
+### Acciones Realizadas:
+- Agregué inputs para capturar correo y contraseña.
+- Validé las credenciales usando datos hardcoded:
+  - **Correo:** `usuario@ejemplo.com`
+  - **Contraseña:** `password123`
+- Almacené la sesión usando `expo-secure-store` para persistencia.
+- Mostré un mensaje de error si las credenciales eran incorrectas.
+- Rediseñé la interfaz de login y registro con estilos modernos y atractivos (fondo negro, textos vibrantes).
 
-🔑 **Credenciales de prueba:**
-- 📧 **Correo:** `usuario@ejemplo.com`
-- 🔒 **Contraseña:** `password123`
+---
 
+## 📄 Parte 2: CRUD de Tareas con expo-sqlite
 
+### Objetivo:
+Desarrollar un pequeño sistema de tareas que permita:
+- Agregar
+- Listar
+- Eliminar tareas
+
+### Acciones Realizadas:
+- Implementé un input y botón para agregar tareas.
+- Usé `expo-sqlite` para almacenar las tareas localmente.
+- Mostré las tareas almacenadas usando `FlatList`.
+- Implementé eliminación de tareas mediante un botón por cada una.
+- Mejoré toda la estética con colores oscuros, acentos brillantes (azul, morado), sombras y bordes personalizados.
+
+---
+
+## 🎓 Tecnologías Utilizadas
+- React Native
+- Expo Router
+- Expo Secure Store
+- Expo SQLite
+- React Navigation
+
+---
+
+## 💡 Conclusión
+Esta actividad me permitió reforzar conceptos importantes como:
+- Validación de formularios
+- Manejo de sesiones locales
+- Almacenamiento persistente con SQLite
+- Modularización de componentes y pantallas
+- Aplicación de estilos personalizados para mejorar la experiencia visual y de usuario.
+
+> Trabajo completo, funcional y con un diseño visualmente atractivo.
 
